@@ -7,11 +7,11 @@ class Aspic < Formula
 
   if OS.mac?
     url "https://github.com/thpham/aspic/releases/download/v0.1/aspic_0.1_darwin_amd64.tar.gz"
-    sha256 "46ab02a0b2c46d7615d884011c3f8bca9af3c81e5658884df3f5b66d0f41113a"
+    sha256 "9e4345972fc57905222cfbcf27fae6773fd2e0af6ab8c03f30f6cd7ccae82cf5"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/thpham/aspic/releases/download/v0.1/aspic_0.1_linux_amd64.tar.gz"
-      sha256 "2c9292f178943e77d9345667af92edabfb74e0c4f3cbbd617e186e3d34154179"
+      sha256 "f235bb5980d475ccc46d7c0457b8111ccf3ecfb2c3288e6368f1a614fe08f4f6"
     end
   end
   
